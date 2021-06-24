@@ -1,0 +1,53 @@
+{
+  "dossier": [
+    {
+      "id": "193774673",
+      "title": "Escape game géant, le thrône de fer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non maximus purus.",
+      "heure": "18h",
+      "date": "21/08/2021",
+      "place": "Station Ausone",
+      "img_url": "https://cdn.radiofrance.fr/s3/cruiser-production/2019/04/3de4b702-38df-4410-8b6b-160a4872002d/838_gameofthrones8-20-posters_1.webp"
+    }
+  ],
+  "event": [
+    {
+      "id": "8732894692",
+      "title": "Superman, le boy scout multifacette",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non maximus purus.",
+      "heure": "18h",
+      "date": "21/08/2021",
+      "place": "Station Ausone",
+      "img_url": "https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+    }
+  ],
+  "coup_coeur": [
+    {
+      "id": "829412481",
+      "title": "Superman, le boy scout multifacette",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non maximus purus.",
+      "libraire": "Sylvain Arrestier",
+      "rayon": "littérature française",
+      "icon_libraire": "~/assets/libraires/libraire1.png",
+      "lecture": "10 min",
+      "img_url": "https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+    }
+  ],
+  "podcast": [
+    {
+      "id": "8139816412",
+      "author": "Sylvain Arrestier",
+      "rayon": "littérature française",
+      "lecture": "45 min"
+    }
+  ],
+  "video": [
+    {
+      "id": "5639239723",
+      "author": "Sylvain Arrestier",
+      "rayon": "littérature française",
+      "lecture": "45 min",
+      "img_url": "https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+    }
+  ]
+}
