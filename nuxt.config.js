@@ -47,7 +47,18 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Mollat ',
       lang: 'en',
+      display: 'standalone',
+      background_color: '#FFF',
+    },
+    icon: {
+      /* icon options */
+    },
+    meta: {
+      mobileAppIOS: 'apple-mobile-web-app-capable',
+      title: 'Mollat PWA',
+      author: 'Groupe 6 ECV',
     },
   },
 

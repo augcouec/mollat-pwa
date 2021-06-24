@@ -1,28 +1,30 @@
 <template>
   <div class="card">
-    <div class="card__header">
-      <img
-        src="https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
-        alt=""
-      />
-      <span>titre du dossier</span>
-    </div>
-    <div class="card__description">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
-        maximus purus.
-      </p>
-      <div class="card__infos">
-        <div>
-          <img src="~/assets/icons/calendar.svg" alt="" />
-          <span>21/08/2021 à 18h</span>
-        </div>
-        <div>
-          <img src="~/assets/icons/location.svg" alt="" />
-          <span>Station Ausone</span>
+    <nuxt-link to="/Article">
+      <div class="card__header">
+        <img
+          src="https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+          alt=""
+        />
+        <span>titre du dossier</span>
+      </div>
+      <div class="card__description">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
+          maximus purus.
+        </p>
+        <div class="card__infos">
+          <div>
+            <img src="~/assets/icons/calendar.svg" alt="" />
+            <span>21/08/2021 à 18h</span>
+          </div>
+          <div>
+            <img src="~/assets/icons/location.svg" alt="" />
+            <span>Station Ausone</span>
+          </div>
         </div>
       </div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 <script>
@@ -67,5 +69,8 @@ export default {
     justify-content: space-between;
     margin: 0.5rem 0 1rem 0;
   }
+}
+a {
+  text-decoration: none;
 }
 </style>

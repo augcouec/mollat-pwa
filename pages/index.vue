@@ -74,6 +74,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+a {
+  text-decoration: none;
+}
 .container {
   min-height: 75vh;
   display: flex;
