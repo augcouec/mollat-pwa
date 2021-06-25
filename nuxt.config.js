@@ -47,9 +47,10 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'Mollat ',
+      name: 'Mollat',
+      short_name: 'Mollat',
       lang: 'en',
-      display: 'standalone',
+      display: 'fullscreen',
       background_color: '#FFF',
     },
     icon: {

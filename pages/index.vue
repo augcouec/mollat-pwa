@@ -5,9 +5,15 @@
       <hr />
     </div>
     <div class="container__dossier">
-      <Dossier></Dossier>
-      <Dossier></Dossier>
-      <Dossier></Dossier>
+      <Dossier
+        :image="'https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'"
+      ></Dossier>
+      <Dossier
+        :image="'https://images.unsplash.com/photo-1472068996216-8c972a0af9bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1354&q=80'"
+      ></Dossier>
+      <Dossier
+        :image="'https://images.unsplash.com/photo-1466583985723-b74122659346?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1778&q=80'"
+      ></Dossier>
       <button>Voir tout</button>
     </div>
     <div>
@@ -18,17 +24,27 @@
         <h3>Evenement à venir</h3>
         <hr />
       </div>
-      <Event></Event>
-      <Event></Event>
+      <Event
+        :image="'https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80'"
+      ></Event>
+      <Event
+        :image="'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2809&q=80'"
+      ></Event>
     </div>
     <div class="container__header">
       <h3>Coups de coeur <span>Mollat</span></h3>
       <hr />
     </div>
     <div class="container__heart">
-      <Heart></Heart>
-      <Heart></Heart>
-      <Heart></Heart>
+      <Heart
+        :image="'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1572&q=80'"
+      ></Heart>
+      <Heart
+        :image="'https://images.unsplash.com/photo-1598618443855-232ee0f819f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=734&q=80'"
+      ></Heart>
+      <Heart
+        :image="'https://images.unsplash.com/photo-1610882648335-ced8fc8fa6b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'"
+      ></Heart>
     </div>
     <div class="container__header">
       <h3>Sur nos <span>médias</span></h3>
@@ -44,10 +60,18 @@
       </div>
       <h5>Vidéos</h5>
       <div class="container__media-content">
-        <Video></Video>
-        <Video></Video>
-        <Video></Video>
-        <Video></Video>
+        <Video
+          :image="'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'"
+        ></Video>
+        <Video
+          :image="'https://images.unsplash.com/photo-1600275669439-14e40452d20b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'"
+        ></Video>
+        <Video
+          :image="'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80'"
+        ></Video>
+        <Video
+          :image="'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'"
+        ></Video>
       </div>
     </div>
   </section>
@@ -69,14 +93,16 @@ export default {
     Podcast,
     Video,
   },
+  data() {
+    return {
+      title: 'Example blog post',
+    }
+  },
   computed: {},
 }
 </script>
 
 <style scoped lang="scss">
-a {
-  text-decoration: none;
-}
 .container {
   min-height: 75vh;
   display: flex;

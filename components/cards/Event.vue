@@ -1,10 +1,7 @@
 <template>
   <div class="card">
     <div class="card__header">
-      <img
-        src="https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
-        alt=""
-      />
+      <img :src="image" alt="" />
       <div class="card__description">
         <span>Titre du dossier</span>
         <p>
@@ -27,15 +24,9 @@
   </div>
 </template>
 <script>
-import dossier from '~/assets/data.json'
-
 export default {
   name: 'Event',
-  data() {
-    return {
-      dossier: [],
-    }
-  },
+  props: ['image'],
 }
 </script>
 <style lang="scss" scoped>

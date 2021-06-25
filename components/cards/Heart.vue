@@ -1,9 +1,6 @@
 <template>
   <div class="card">
-    <img
-      src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
-      alt=""
-    />
+    <img :src="image" alt="" />
     <div class="card__right-side">
       <div class="card__libraire">
         <img src="~/assets/libraire_icon.svg" alt="" />
@@ -28,6 +25,7 @@
 <script>
 export default {
   name: 'Heart',
+  props: ['image'],
 }
 </script>
 <style lang="scss" scoped>

@@ -12,17 +12,14 @@
       </div>
     </div>
 
-    <img
-      class="card__right"
-      src="https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
-      alt=""
-    />
+    <img class="card__right" :src="image" alt="" />
   </div>
 </template>
 
 <script>
 export default {
   name: 'Video',
+  props: ['image'],
 }
 </script>
 <style lang="scss" scoped>

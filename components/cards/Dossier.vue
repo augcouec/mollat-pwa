@@ -2,10 +2,7 @@
   <div class="card">
     <nuxt-link to="/Article">
       <div class="card__header">
-        <img
-          src="https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
-          alt=""
-        />
+        <img :src="image" alt="" />
         <span>titre du dossier</span>
       </div>
       <div class="card__description">
@@ -28,14 +25,9 @@
   </div>
 </template>
 <script>
-import dossier from '~/assets/data.json'
-
 export default {
-  data() {
-    return {
-      dossier: [],
-    }
-  },
+  name: 'Dossier',
+  props: ['image'],
 }
 </script>
 <style lang="scss" scoped>
