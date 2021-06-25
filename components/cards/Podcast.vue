@@ -4,7 +4,7 @@
       <img src="~/assets/icons/headset.svg" alt="" />
       <span>Rencontre</span>
     </div>
-    <span class="card__title">Anne-Sophie Clerc</span>
+    <span class="card__title">{{ title }}</span>
     <div class="card__reading-time">
       <span>52 min</span>
       <img src="~/assets/icons/time.svg" alt="" />
@@ -15,6 +15,7 @@
 <script>
 export default {
   name: 'Podcast',
+  props: ['title'],
 }
 </script>
 <style lang="scss" scoped>

@@ -5,7 +5,7 @@
         <img src="~/assets/icons/play.svg" alt="" />
         <span>Interview</span>
       </div>
-      <span class="card__title">Jean Dinos</span>
+      <span class="card__title">{{ title }}</span>
       <div class="card__reading-time">
         <span>53 min</span>
         <img src="~/assets/icons/time.svg" alt="" />
@@ -19,7 +19,7 @@
 <script>
 export default {
   name: 'Video',
-  props: ['image'],
+  props: ['image', 'title'],
 }
 </script>
 <style lang="scss" scoped>

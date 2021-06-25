@@ -3,7 +3,7 @@
     <nuxt-link to="/Article">
       <div class="card__header">
         <img :src="image" alt="" />
-        <span>titre du dossier</span>
+        <span>{{ title }}</span>
       </div>
       <div class="card__description">
         <p>
@@ -27,7 +27,7 @@
 <script>
 export default {
   name: 'Dossier',
-  props: ['image'],
+  props: ['image', 'title'],
 }
 </script>
 <style lang="scss" scoped>

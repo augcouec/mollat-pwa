@@ -9,7 +9,7 @@
           <span>Libraire littérature</span>
         </div>
       </div>
-      <span class="card__title">La victoire en pleurant</span>
+      <span class="card__title">{{ title }}</span>
       <p class="card__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
         maximus purus, ultrices dui.
@@ -25,7 +25,7 @@
 <script>
 export default {
   name: 'Heart',
-  props: ['image'],
+  props: ['image', 'title'],
 }
 </script>
 <style lang="scss" scoped>

@@ -3,7 +3,7 @@
     <div class="card__header">
       <img :src="image" alt="" />
       <div class="card__description">
-        <span>Titre du dossier</span>
+        <span>{{ title }}</span>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non
           maximus purus.
@@ -26,7 +26,7 @@
 <script>
 export default {
   name: 'Event',
-  props: ['image'],
+  props: ['image', 'title'],
 }
 </script>
 <style lang="scss" scoped>

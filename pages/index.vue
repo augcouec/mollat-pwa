@@ -7,12 +7,15 @@
     <div class="container__dossier">
       <Dossier
         :image="'https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'"
+        :title="'Escape Game géant, le trône de fer'"
       ></Dossier>
       <Dossier
         :image="'https://images.unsplash.com/photo-1472068996216-8c972a0af9bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1354&q=80'"
+        :title="'La semaine du livre polar'"
       ></Dossier>
       <Dossier
         :image="'https://images.unsplash.com/photo-1466583985723-b74122659346?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1778&q=80'"
+        :title="'Le design, 4 oeuvres qui changent la donne'"
       ></Dossier>
       <button>Voir tout</button>
     </div>
@@ -26,9 +29,11 @@
       </div>
       <Event
         :image="'https://images.unsplash.com/photo-1600711847896-ea25db3164e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80'"
+        :title="'Superman, le boyscout multi-facettes'"
       ></Event>
       <Event
         :image="'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2809&q=80'"
+        :title="'Prix du Livre du Réel : les Lauréats 2021 !'"
       ></Event>
     </div>
     <div class="container__header">
@@ -38,12 +43,15 @@
     <div class="container__heart">
       <Heart
         :image="'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1572&q=80'"
+        :title="'Matt Ridley'"
       ></Heart>
       <Heart
         :image="'https://images.unsplash.com/photo-1598618443855-232ee0f819f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=734&q=80'"
+        :title="'La Victoire en Pleurant'"
       ></Heart>
       <Heart
         :image="'https://images.unsplash.com/photo-1610882648335-ced8fc8fa6b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'"
+        :title="'Si tu me voyais'"
       ></Heart>
     </div>
     <div class="container__header">
@@ -53,24 +61,28 @@
     <div class="container__media">
       <h5>Podcast</h5>
       <div class="container__media-content">
-        <Podcast></Podcast>
-        <Podcast></Podcast>
-        <Podcast></Podcast>
-        <Podcast></Podcast>
+        <Podcast :title="'Anne-Sophie Clerc'"></Podcast>
+        <Podcast :title="'Jean Gabin'"></Podcast>
+        <Podcast :title="'Marc Lévy'"></Podcast>
+        <Podcast :title="'Guillaume Musso'"></Podcast>
       </div>
       <h5>Vidéos</h5>
       <div class="container__media-content">
         <Video
           :image="'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'"
+          :title="'Jean Dinos'"
         ></Video>
         <Video
           :image="'https://images.unsplash.com/photo-1600275669439-14e40452d20b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'"
+          :title="'Mélanie Dupont'"
         ></Video>
         <Video
           :image="'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80'"
+          :title="'Jeanne Bazlaire'"
         ></Video>
         <Video
           :image="'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80'"
+          :title="'Edouard Debayle'"
         ></Video>
       </div>
     </div>
